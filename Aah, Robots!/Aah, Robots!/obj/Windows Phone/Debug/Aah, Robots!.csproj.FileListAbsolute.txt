@@ -1,0 +1,24 @@
+c:\users\ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+c:\users\ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\AppManifest.xaml
+c:\users\ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\WMAppManifest.xml.g
+c:\users\ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\
+c:\users\ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Argh, Robots!.dll
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Argh, Robots!.pdb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\Argh, Robots!.dll
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\Argh, Robots!.pdb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Argh, Robots!.xap
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\ABUTTONFILLER.xnb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\BBUTTONFILLER.xnb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\DPADFILLER.xnb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\LARGEROBOTFILLER.xnb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\SMALLROBOTFILLER.xnb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\PLAYERFILLER.xnb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\TOUCHHIGHLIGHT.xnb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\BOXFILLER.xnb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\THUMBSTICKFILLER.xnb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Fonts\digitalFont.xnb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Fonts\arialFont.xnb
+C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\THUMBSTICKTOUCH.xnb
