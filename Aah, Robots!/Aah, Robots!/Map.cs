@@ -5,7 +5,7 @@ using System.Text;
 
 namespace AahRobots
 {
-    class Map
+    public class Map
     {
     }
 }

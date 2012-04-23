@@ -17,8 +17,6 @@ namespace AahRobots
         Texture2D theSprite;
         Vector2 spriteSpawn;
         public Vector2 spriteVelocity;
-        public float spriteRotation; //Is this really applicable? Probably not...
-
 
         public Sprite(Texture2D spriteTexture, Vector2 spritePos)
         {
