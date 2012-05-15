@@ -68,7 +68,6 @@
     <Compile Include="Block.cs" />
     <Compile Include="BlockManager.cs" />
     <Compile Include="Button.cs" />
-    <Compile Include="Enemy.cs" />
     <Compile Include="Map.cs" />
     <Compile Include="MapManager.cs" />
     <Compile Include="Player.cs" />

@@ -26,7 +26,7 @@ namespace AahRobots
         Texture2D railingTexture;
         Texture2D potPlantTexture;
 
-        public List<Block> blocksInMap = new List<Block>();
+        List<Block> blocksInMap = new List<Block>();
         public List<Rectangle> nonePenetrableBlocks = new List<Rectangle>();
         public List<Rectangle> penetrableBlocks = new List<Rectangle>();
 

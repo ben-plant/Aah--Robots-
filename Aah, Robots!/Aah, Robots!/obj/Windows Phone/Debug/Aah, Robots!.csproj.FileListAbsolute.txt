@@ -22,3 +22,26 @@ C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah
 C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Fonts\digitalFont.xnb
 C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Fonts\arialFont.xnb
 C:\Users\Ben\documents\visual studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\THUMBSTICKTOUCH.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\ABUTTONFILLER.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\BBUTTONFILLER.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\DPADFILLER.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\PLAYERFILLER.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\LARGEROBOTFILLER.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\SMALLROBOTFILLER.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\THUMBSTICKFILLER.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\TOUCHHIGHLIGHT.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\BOXFILLER.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\THUMBSTICKTOUCH.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Fonts\digitalFont.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Fonts\arialFont.xnb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Argh, Robots!.dll
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Argh, Robots!.pdb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\ResolveAssemblyReference.cache
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\Argh, Robots!.dll
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\Argh, Robots!.pdb
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\AppManifest.xaml
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\WMAppManifest.xml.g
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\WMAppManifest.xml
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Argh, Robots!.xap
+\\GALLOWMERE\WesternDigital\MainPCBackup\ViStu\Visual Studio 2010\Projects\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\XapCacheFile.xml

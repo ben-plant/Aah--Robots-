@@ -1,12 +1,12 @@
 Content\Controller\ABUTTONFILLER.xnb
 Content\Controller\BBUTTONFILLER.xnb
 Content\Controller\DPADFILLER.xnb
+Content\Sprites\PLAYERFILLER.xnb
 Content\Sprites\LARGEROBOTFILLER.xnb
 Content\Sprites\SMALLROBOTFILLER.xnb
-Content\Sprites\PLAYERFILLER.xnb
+Content\Controller\THUMBSTICKFILLER.xnb
 Content\Sprites\TOUCHHIGHLIGHT.xnb
 Content\Bricks\BOXFILLER.xnb
-Content\Controller\THUMBSTICKFILLER.xnb
+Content\Controller\THUMBSTICKTOUCH.xnb
 Content\Fonts\digitalFont.xnb
 Content\Fonts\arialFont.xnb
-Content\Controller\THUMBSTICKTOUCH.xnb
