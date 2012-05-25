@@ -68,3 +68,9 @@ C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Win
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\WMAppManifest.xml
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Argh, Robots!.xap
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Argh, Robots!.xap
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\XapCacheFile.xml
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\AppManifest.xaml
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\WMAppManifest.xml.g
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\WMAppManifest.xml
+bin\Windows Phone\Debug\
