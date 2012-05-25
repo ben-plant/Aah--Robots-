@@ -14,6 +14,8 @@ namespace AahRobots
 {
     class Turret
     {
+        public readonly bool canThisBlockBeWalkedThrough = false;
+
         public Vector2 TurretSpawnLocation;
         public Rectangle TurretBaseRectangle;
         public Rectangle TurretTopRectangle;
@@ -21,6 +23,8 @@ namespace AahRobots
         public Texture2D TurretTop;
         public int TurretLevel;
         public int TurretCost;
+        public int TurretHealth;
+        
 
         //public string TurretName;
         public TurretTop thisTurretTop;
@@ -32,6 +36,8 @@ namespace AahRobots
             this.TurretTop = topTex;
             this.TurretBase = baseTex;
             this.TurretLevel = turretLevel;
+            this.TurretHealth = (100 + (TurretLevel * 50));
+
 
             TurretBaseRectangle = new Rectangle((int)TurretSpawnLocation.X, (int)TurretSpawnLocation.Y, 64, 64);
             TurretTopRectangle = new Rectangle(TurretBaseRectangle.X, (TurretBaseRectangle.Y - TurretTop.Height / 2), 64, 64);
