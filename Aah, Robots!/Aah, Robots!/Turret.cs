@@ -12,13 +12,16 @@ using Microsoft.Xna.Framework.Media;
 
 namespace AahRobots
 {
+
+    /*Turret superclass generates two objects, a base and a top, both of which are block types. 
+     * These will be added into the BlockManager listing class later, I guess. */
+
     class Turret
     {
-        public readonly bool canThisBlockBeWalkedThrough = false;
-
         public Vector2 TurretSpawnLocation;
         public Rectangle TurretBaseRectangle;
         public Rectangle TurretTopRectangle;
+        public Vector2 TurretTopSwivel;
         public Texture2D TurretBase;
         public Texture2D TurretTop;
         public int TurretLevel;
@@ -38,12 +41,12 @@ namespace AahRobots
             this.TurretLevel = turretLevel;
             this.TurretHealth = (100 + (TurretLevel * 50));
 
-
             TurretBaseRectangle = new Rectangle((int)TurretSpawnLocation.X, (int)TurretSpawnLocation.Y, 64, 64);
             TurretTopRectangle = new Rectangle(TurretBaseRectangle.X, (TurretBaseRectangle.Y - TurretTop.Height / 2), 64, 64);
+            this.TurretTopSwivel = new Vector2((TurretTopRectangle.Width / 2), (TurretTopRectangle.Height / 2));
 
-            TurretTop thisTurretTop = new TurretTop();
-            TurretBase thisTurretBase = new TurretBase();
+            TurretTop thisTurretTop = new TurretTop(this.TurretTop, this.TurretLevel, this.TurretTopRectangle);
+            TurretBase thisTurretBase = new TurretBase(this.TurretBase, this.TurretLevel, this.TurretBaseRectangle);
         }
 
         public bool TurretLevelUp()

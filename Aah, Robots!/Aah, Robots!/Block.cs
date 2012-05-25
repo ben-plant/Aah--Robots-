@@ -16,6 +16,9 @@ namespace AahRobots
     {
         Texture2D thisBlock;
         public int thisBlockType;
+        public Rectangle thisBlockShape;
+        public bool canThisBlockBeWalkedThrough;
+        public bool doesThisBlockGenerateProjectiles;
 
         public Block(Texture2D importedTile, int importedBlockType) : base()
         {
