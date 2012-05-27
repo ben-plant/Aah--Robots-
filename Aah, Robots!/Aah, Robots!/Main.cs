@@ -100,8 +100,9 @@ namespace AahRobots
 
             thePlayerSkin = Content.Load<Texture2D>("Sprites//PLAYERFILLER");
             Vector2 testVec = new Vector2(100, 100);
+            Vector2 testVec2 = new Vector2(135, 100);
             blockManager.spawnBlock(testVec, 1);
-
+            blockManager.spawnBlock(testVec2, 0);
             thePlayer = new Player(thePlayerSkin, playerPosition, this);
 
             #region CrapCode

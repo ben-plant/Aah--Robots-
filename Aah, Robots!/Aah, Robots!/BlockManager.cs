@@ -48,7 +48,7 @@ namespace AahRobots
             try
             {
                 int blocksPrinted = blocksInMap.Count;
-                Block thisBlock = new Block(blockBatch, floorTile, spawnLoc, (blocksPrinted + 1));
+                Block thisBlock = new Block(blockBatch, blockTextures.ElementAt<Texture2D>(blockID), spawnLoc, (blocksPrinted + 1));
                 blocksInMap.Add(thisBlock);
                 return true;
             }
