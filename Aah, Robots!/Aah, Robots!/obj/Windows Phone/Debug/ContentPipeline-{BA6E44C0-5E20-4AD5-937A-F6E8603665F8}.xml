@@ -109,6 +109,24 @@
       <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Fonts\arialFont.xnb</Output>
       <Time>2012-04-13T17:23:57+01:00</Time>
     </Item>
+    <Item>
+      <Source>Sprites\TURRETBASEFILLER.png</Source>
+      <Name>Sprites\TURRETBASEFILLER</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\TURRETBASEFILLER.xnb</Output>
+      <Time>2012-05-25T02:12:08.6513424+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\TURRETTOPFILLER.png</Source>
+      <Name>Sprites\TURRETTOPFILLER</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\TURRETTOPFILLER.xnb</Output>
+      <Time>2012-05-25T02:13:47.1139742+01:00</Time>
+    </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>
       <ContentProjectGUID>{BA6E44C0-5E20-4AD5-937A-F6E8603665F8}</ContentProjectGUID>

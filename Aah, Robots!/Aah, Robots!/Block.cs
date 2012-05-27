@@ -12,26 +12,31 @@ using Microsoft.Xna.Framework.Media;
 
 namespace AahRobots
 {
-    class Block : Tile
+    class Block
     {
         Texture2D thisBlock;
-        public int thisBlockType;
         public Rectangle thisBlockShape;
-        public bool canThisBlockBeWalkedThrough;
-        public bool doesThisBlockGenerateProjectiles;
+        public int thisBlockIndex;
 
-        public Block(Texture2D importedTile, int importedBlockType) : base()
+        public Block(SpriteBatch blockBatch, Texture2D importedBlock, Vector2 blockDrawLocation, int blockIndex)
         {
-            this.thisBlock = importedTile;
-            this.thisBlockType = importedBlockType;
+            thisBlock = importedBlock;
+            thisBlockShape = new Rectangle((int)blockDrawLocation.X, (int)blockDrawLocation.Y, 35, 35);
+            thisBlockIndex = blockIndex;
         }
 
         public void Update(GameTime gameTime)
         {
         }
 
-        public void Draw(GameTime gameTime, SpriteBatch spriteBatch)
+        public void Draw(SpriteBatch drawSurface)
         {
+            drawSurface.Draw(thisBlock, thisBlockShape, Color.White);
+        }
+
+        public Rectangle blockArea()
+        {
+            return thisBlockShape;
         }
     }
 }

@@ -18,44 +18,61 @@ namespace AahRobots
     /// </summary>
     public class BlockManager : Microsoft.Xna.Framework.GameComponent
     {
-        Block brickWallBlock;
-        Block railingBlock;
-        Block potPlantBlock;
-
-        Texture2D brickWallTexture;
-        Texture2D railingTexture;
-        Texture2D potPlantTexture;
+        public Game thisGame;
 
         List<Block> blocksInMap = new List<Block>();
-        public List<Rectangle> nonePenetrableBlocks = new List<Rectangle>();
-        public List<Rectangle> penetrableBlocks = new List<Rectangle>();
+        List<Texture2D> blockTextures = new List<Texture2D>();
+        SpriteBatch blockBatch;
 
-        public BlockManager(Game game)
-            : base(game)
+        Texture2D floorTile;
+        Texture2D wallTile;
+
+        public BlockManager(Game game, SpriteBatch blkBatch) : base(game)
         {
-            
+            thisGame = game;
+            blockBatch = blkBatch;
+            thisGame.Content.RootDirectory = "Content";
+            this.loadTexturesIntoMemory();
         }
 
-        /// <summary>
-        /// Allows the game component to perform any initialization it needs to before starting
-        /// to run.  This is where it can query for any required services and load content.
-        /// </summary>
-        public override void Initialize()
-        {
-            // TODO: Add your initialization code here
-
-            base.Initialize();
-        }
-
-        /// <summary>
-        /// Allows the game component to update itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public override void Update(GameTime gameTime)
         {
             // TODO: Add your update code here
-
             base.Update(gameTime);
+        }
+
+        public bool spawnBlock(Vector2 spawnLoc, int blockID)
+        {
+            
+
+            try
+            {
+                int blocksPrinted = blocksInMap.Count;
+                Block thisBlock = new Block(blockBatch, floorTile, spawnLoc, (blocksPrinted + 1));
+                blocksInMap.Add(thisBlock);
+                return true;
+            }
+            catch
+            {
+                return false;
+            }
+        }
+
+        public bool loadTexturesIntoMemory()
+        {
+            floorTile = thisGame.Content.Load<Texture2D>("Sprites//TURRETBASEFILLER");
+            wallTile = thisGame.Content.Load<Texture2D>("Sprites//TURRETTOPFILLER");
+            blockTextures.Add(floorTile);
+            blockTextures.Add(wallTile);
+            return true;
+        }
+
+        public void drawAllBlocks(SpriteBatch blockBatch)
+        {
+            foreach (Block block in blocksInMap)
+            {
+                block.Draw(blockBatch);
+            }
         }
     }
 }

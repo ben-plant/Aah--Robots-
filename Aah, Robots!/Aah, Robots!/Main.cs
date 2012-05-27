@@ -40,21 +40,14 @@ namespace AahRobots
 
         public GraphicsDeviceManager graphics;
         SpriteBatch spriteBatch;
+        SpriteBatch blockBatch;
         MapManager mapManager;
         BlockManager blockManager;
         //ControllerManager controllerManager;
 
         Player thePlayer;
-        
-
         Texture2D thePlayerSkin;
-        Texture2D smallRobotSkin;
-        Texture2D bigRobotSkin;
-        Texture2D floorTile;
-        Texture2D wallTile;
-        Texture2D windowTile;
-        Texture2D DPadTexture;
-        Texture2D AButtonTexture, BButtonTexture;
+
         //public Texture2D theThumbstickTexture;
 
         SpriteFont digiFont;
@@ -94,34 +87,23 @@ namespace AahRobots
         protected override void Initialize()
         {
             spriteBatch = new SpriteBatch(GraphicsDevice);
+            blockBatch = new SpriteBatch(GraphicsDevice);
 
             mapManager = new MapManager(this);
             Components.Add(mapManager);
 
-            blockManager = new BlockManager(this);
+            blockManager = new BlockManager(this, blockBatch);
             Components.Add(blockManager);
-            
-            //Spawn the controller...
-            
-            //Components.Add(controllerManager);
-            
-            //Load the fonts up...
             digiFont = Content.Load<SpriteFont>("Fonts//digitalFont");
             normFont = Content.Load<SpriteFont>("Fonts//arialFont");
 
-            //Then the controller...
-            //DPadTexture = Content.Load<Texture2D>("Controller//DPADFILLER");
-            //AButtonTexture = Content.Load<Texture2D>("Controller//ABUTTONFILLER");
-            //BButtonTexture = Content.Load<Texture2D>("Controller//BBUTTONFILLER");
 
-            //Now the sprites!
             thePlayerSkin = Content.Load<Texture2D>("Sprites//PLAYERFILLER");
-            smallRobotSkin = Content.Load<Texture2D>("Sprites//SMALLROBOTFILLER");
-            bigRobotSkin = Content.Load<Texture2D>("Sprites//LARGEROBOTFILLER");
-            //theThumbstickTexture = Content.Load<Texture2D>("Controller//THUMBSTICKFILLER");
+            Vector2 testVec = new Vector2(100, 100);
+            blockManager.spawnBlock(testVec, 1);
 
-            thePlayer = new Player(thePlayerSkin, PlayerPosition, this);
-            //centreOfControlButtons = A.returnSpriteOrigin(AButtonTexture);
+            thePlayer = new Player(thePlayerSkin, playerPosition, this);
+
             #region CrapCode
             //Scrap or temporary code starts here!
             
@@ -153,7 +135,8 @@ namespace AahRobots
         {
             GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin();
-            
+            blockBatch.Begin();
+            blockManager.drawAllBlocks(spriteBatch);           
             
             thePlayer.Draw(gameTime, spriteBatch);
             spriteBatch.DrawString(digiFont, "Robots to kill: " + robotsOnScreen.ToString(), new Vector2(20, 20), Color.White);
@@ -169,9 +152,10 @@ namespace AahRobots
             }
 
             #region BuildStringRef
-            spriteBatch.DrawString(normFont, "CYBORGS ANONYMOUS 2012 Pre-Alpha " + buildNumber.ToString(), new Vector2(20, 440), Color.Red);
+            spriteBatch.DrawString(normFont, "W/TITLE : BEDTIME : 2012 Pre-Alpha " + buildNumber.ToString(), new Vector2(20, 440), Color.Red);
             #endregion
             spriteBatch.End();
+            blockBatch.End();
 
             base.Draw(gameTime);
         }

@@ -10,3 +10,5 @@ Content\Bricks\BOXFILLER.xnb
 Content\Controller\THUMBSTICKTOUCH.xnb
 Content\Fonts\digitalFont.xnb
 Content\Fonts\arialFont.xnb
+Content\Sprites\TURRETBASEFILLER.xnb
+Content\Sprites\TURRETTOPFILLER.xnb

@@ -57,7 +57,6 @@ namespace AahRobots
             spriteVelocity += VirtualThumbstick.Thumbstick;// *acceleration;
             playerPosition += spriteVelocity;
             spriteVelocity *= 0.8f;
-
         }
 
         public override void Draw(GameTime gameTime, SpriteBatch spriteBatch)

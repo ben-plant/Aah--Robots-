@@ -12,11 +12,7 @@ using Microsoft.Xna.Framework.Media;
 
 namespace AahRobots
 {
-    class TurretTop : Block
+    class TurretTop : SpawnableEntity
     {
-        public TurretTop(Texture2D thisTurretTop, int thisTurretNo, Rectangle thisTopLayout)
-            : base(thisTurretTop, thisTurretNo)
-        {
-        }
     }
 }

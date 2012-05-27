@@ -16,7 +16,7 @@ namespace AahRobots
     /*Turret superclass generates two objects, a base and a top, both of which are block types. 
      * These will be added into the BlockManager listing class later, I guess. */
 
-    class Turret
+    class Turret : SpawnableEntity
     {
         public Vector2 TurretSpawnLocation;
         public Rectangle TurretBaseRectangle;
@@ -45,8 +45,8 @@ namespace AahRobots
             TurretTopRectangle = new Rectangle(TurretBaseRectangle.X, (TurretBaseRectangle.Y - TurretTop.Height / 2), 64, 64);
             this.TurretTopSwivel = new Vector2((TurretTopRectangle.Width / 2), (TurretTopRectangle.Height / 2));
 
-            TurretTop thisTurretTop = new TurretTop(this.TurretTop, this.TurretLevel, this.TurretTopRectangle);
-            TurretBase thisTurretBase = new TurretBase(this.TurretBase, this.TurretLevel, this.TurretBaseRectangle);
+            //TurretTop thisTurretTop = new TurretTop(this.TurretTop, this.TurretLevel, this.TurretTopRectangle);
+            //TurretBase thisTurretBase = new TurretBase(this.TurretBase, this.TurretLevel, this.TurretBaseRectangle);
         }
 
         public bool TurretLevelUp()
