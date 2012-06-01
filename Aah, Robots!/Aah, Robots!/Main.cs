@@ -42,7 +42,7 @@ namespace AahRobots
         SpriteBatch spriteBatch;
         SpriteBatch blockBatch;
         MapManager mapManager;
-        BlockManager blockManager;
+        public BlockManager blockManager;
         //ControllerManager controllerManager;
 
         Player thePlayer;
@@ -69,7 +69,6 @@ namespace AahRobots
         public int robotKillCount = 0;
         public int robotsOnScreen = 100;
         public int playerLivesRemaining = 3;
-        
 
         public Main()
         {
@@ -102,7 +101,7 @@ namespace AahRobots
             Vector2 testVec = new Vector2(100, 100);
             Vector2 testVec2 = new Vector2(135, 100);
             blockManager.spawnBlock(testVec, 1);
-            blockManager.spawnBlock(testVec2, 0);
+            blockManager.spawnBlock(testVec2, 2);
             thePlayer = new Player(thePlayerSkin, playerPosition, this);
 
             #region CrapCode
@@ -127,7 +126,7 @@ namespace AahRobots
         protected override void Update(GameTime gameTime)
         {
             TouchCollection panelTouches = TouchPanel.GetState();
-            thePlayer.Update(gameTime, panelTouches);
+            thePlayer.Update(gameTime, panelTouches, blockManager.blocksInMap);
 
             base.Update(gameTime);
         }
@@ -137,7 +136,7 @@ namespace AahRobots
             GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin();
             blockBatch.Begin();
-            blockManager.drawAllBlocks(spriteBatch);           
+            blockManager.drawAllBlocks(blockBatch);           
             
             thePlayer.Draw(gameTime, spriteBatch);
             spriteBatch.DrawString(digiFont, "Robots to kill: " + robotsOnScreen.ToString(), new Vector2(20, 20), Color.White);

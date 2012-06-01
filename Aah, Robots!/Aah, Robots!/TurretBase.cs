@@ -12,22 +12,19 @@ using Microsoft.Xna.Framework.Media;
 
 namespace AahRobots
 {
-    /* Turret subclass for the base, to be added to the listing block management class */
-    class TurretBase //: Block
+    public class TurretBase : Block
     {
-        //Texture2D turretBase;
-        //int turretID;
-        //Rectangle turretLocation;
+        Texture2D turretBase;
+        int turretID;
+        Rectangle turretLocation;
 
-        //public TurretBase(Texture2D thisTurretBase, int thisTurretNo, Rectangle thisBaseLayout)
-        //    : base(thisTurretBase, thisTurretNo)
-        //{
-        //    this.turretBase = thisTurretBase;
-        //    this.turretID = thisTurretNo;
-        //    this.turretLocation = thisBaseLayout;
-
-        //    this.canThisBlockBeWalkedThrough = false;
-        //    this.doesThisBlockGenerateProjectiles = false;
-        //}
+        public TurretBase(SpriteBatch turretBatch, Texture2D thisTurretBase, Vector2 thisBaseDrawLocation, int thisTurretIndex)
+            : base(turretBatch, thisTurretBase, thisBaseDrawLocation, thisTurretIndex)
+        {
+            this.turretBase = thisTurretBase;
+            this.turretID = thisTurretIndex;
+            this.turretLocation = new Rectangle((int)thisBaseDrawLocation.X, (int)thisBaseDrawLocation.Y, (int)turretBase.Width, (int)turretBase.Height);
+            this.canThisBlockBeWalkedThrough = false;
+        }
     }
 }

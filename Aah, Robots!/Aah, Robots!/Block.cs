@@ -12,11 +12,12 @@ using Microsoft.Xna.Framework.Media;
 
 namespace AahRobots
 {
-    class Block
+    public class Block
     {
         Texture2D thisBlock;
         public Rectangle thisBlockShape;
         public int thisBlockIndex;
+        public bool canThisBlockBeWalkedThrough;
 
         public Block(SpriteBatch blockBatch, Texture2D importedBlock, Vector2 blockDrawLocation, int blockIndex)
         {

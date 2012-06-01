@@ -17,6 +17,7 @@ namespace AahRobots
         Texture2D playerTexture;
         private const float acceleration = 0.5f;
         private Vector2 playerPosition;
+        private Rectangle playerBoundary;
         public List<Button> controllerButtons = new List<Button>();
         public VirtualThumbstick theThumbstick = new VirtualThumbstick();
         public Button A;
@@ -43,9 +44,10 @@ namespace AahRobots
 
             this.playerTexture = playerTex;
             this.playerPosition = playerPos;
+            this.playerBoundary = new Rectangle((int)playerPosition.X, (int)playerPosition.Y, 35, 35);
         }
 
-        public void Update(GameTime gameTime, TouchCollection panelTouches)
+        public void Update(GameTime gameTime, TouchCollection panelTouches, List<Block> blocksOnMap)
         {
             VirtualThumbstick.Update(panelTouches);
             foreach (Button button in controllerButtons)
@@ -53,6 +55,13 @@ namespace AahRobots
                 button.Update(panelTouches);
             }
 
+            foreach (Block block in blocksOnMap)
+            {
+                if (this.playerBoundary.Intersects(block.thisBlockShape))
+                {
+                    spriteVelocity *= 0f;
+                }
+            }
 
             spriteVelocity += VirtualThumbstick.Thumbstick;// *acceleration;
             playerPosition += spriteVelocity;

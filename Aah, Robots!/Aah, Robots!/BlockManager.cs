@@ -20,8 +20,9 @@ namespace AahRobots
     {
         public Game thisGame;
 
-        List<Block> blocksInMap = new List<Block>();
-        List<Texture2D> blockTextures = new List<Texture2D>();
+        public List<Block> blocksInMap = new List<Block>();
+        public List<Turret> turretsInMap = new List<Turret>();
+        public List<Texture2D> blockTextures = new List<Texture2D>();
         SpriteBatch blockBatch;
 
         Texture2D floorTile;
@@ -43,13 +44,33 @@ namespace AahRobots
 
         public bool spawnBlock(Vector2 spawnLoc, int blockID)
         {
-            
+            if (blockID == 2)
+            {
+                return (this.spawnTurret(spawnLoc));
+            }
+            else
+            {
+                try
+                {
+                    int blocksPrinted = blocksInMap.Count;
+                    Block thisBlock = new Block(blockBatch, blockTextures.ElementAt<Texture2D>(blockID), spawnLoc, ++blocksPrinted);
+                    blocksInMap.Add(thisBlock);
+                    return true;
+                }
+                catch
+                {
+                    return false;
+                }
+            }
+        }
 
+        public bool spawnTurret(Vector2 spawnLoc)
+        {
             try
             {
-                int blocksPrinted = blocksInMap.Count;
-                Block thisBlock = new Block(blockBatch, blockTextures.ElementAt<Texture2D>(blockID), spawnLoc, (blocksPrinted + 1));
-                blocksInMap.Add(thisBlock);
+                int turretsPrinted = turretsInMap.Count;
+                Turret spawnedTurret = new Turret(blockBatch, spawnLoc, blockTextures.ElementAt<Texture2D>(1), blockTextures.ElementAt<Texture2D>(0), 1, ++turretsPrinted);
+                turretsInMap.Add(spawnedTurret);
                 return true;
             }
             catch
@@ -72,6 +93,15 @@ namespace AahRobots
             foreach (Block block in blocksInMap)
             {
                 block.Draw(blockBatch);
+            }
+        }
+
+
+        public void drawAllTurrets(SpriteBatch blockBatch)
+        {
+            foreach (Turret turret in turretsInMap)
+            {
+                turret.Draw(blockBatch);
             }
         }
     }
