@@ -74,15 +74,6 @@
       <Time>2012-04-06T20:24:50+01:00</Time>
     </Item>
     <Item>
-      <Source>Bricks\BOXFILLER.png</Source>
-      <Name>Bricks\BOXFILLER</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\BOXFILLER.xnb</Output>
-      <Time>2012-04-13T13:46:57+01:00</Time>
-    </Item>
-    <Item>
       <Source>Controller\THUMBSTICKTOUCH.png</Source>
       <Name>Controller\THUMBSTICKTOUCH</Name>
       <Importer>TextureImporter</Importer>
@@ -126,6 +117,114 @@
       <Options>None</Options>
       <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\TURRETTOPFILLER.xnb</Output>
       <Time>2012-05-27T21:22:21.0784693+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Walls\1.png</Source>
+      <Name>Bricks\Walls\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\1.xnb</Output>
+      <Time>2012-06-20T17:00:57.8611166+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Floors\10.png</Source>
+      <Name>Bricks\Floors\10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Floors\10.xnb</Output>
+      <Time>2012-06-20T17:00:57.8771175+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Floors\11.png</Source>
+      <Name>Bricks\Floors\11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Floors\11.xnb</Output>
+      <Time>2012-06-20T17:00:57.8781176+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Floors\12.png</Source>
+      <Name>Bricks\Floors\12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Floors\12.xnb</Output>
+      <Time>2012-06-20T17:00:57.8791176+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Walls\2.png</Source>
+      <Name>Bricks\Walls\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\2.xnb</Output>
+      <Time>2012-06-20T17:00:57.8631167+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Walls\3.png</Source>
+      <Name>Bricks\Walls\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\3.xnb</Output>
+      <Time>2012-06-20T17:00:57.8651168+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Walls\4.png</Source>
+      <Name>Bricks\Walls\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\4.xnb</Output>
+      <Time>2012-06-20T17:00:57.8671169+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Walls\5.png</Source>
+      <Name>Bricks\Walls\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\5.xnb</Output>
+      <Time>2012-06-20T17:00:57.868117+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Walls\6.png</Source>
+      <Name>Bricks\Walls\6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\6.xnb</Output>
+      <Time>2012-06-20T17:00:57.8701171+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Walls\7.png</Source>
+      <Name>Bricks\Walls\7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\7.xnb</Output>
+      <Time>2012-06-20T17:00:57.8721172+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Walls\8.png</Source>
+      <Name>Bricks\Walls\8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\8.xnb</Output>
+      <Time>2012-06-20T17:00:57.8731173+01:00</Time>
+    </Item>
+    <Item>
+      <Source>Bricks\Walls\9.png</Source>
+      <Name>Bricks\Walls\9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\9.xnb</Output>
+      <Time>2012-06-20T17:00:57.8751174+01:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

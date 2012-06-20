@@ -21,12 +21,10 @@ namespace AahRobots
         public Game thisGame;
 
         public List<Block> blocksInMap = new List<Block>();
-        public List<Turret> turretsInMap = new List<Turret>();
         public List<Texture2D> blockTextures = new List<Texture2D>();
         SpriteBatch blockBatch;
+        public static MapManager mapManager;
 
-        Texture2D floorTile;
-        Texture2D wallTile;
 
         public BlockManager(Game game, SpriteBatch blkBatch) : base(game)
         {
@@ -34,6 +32,7 @@ namespace AahRobots
             blockBatch = blkBatch;
             thisGame.Content.RootDirectory = "Content";
             this.loadTexturesIntoMemory();
+            mapManager = new MapManager(thisGame, this);
         }
 
         public override void Update(GameTime gameTime)
@@ -44,33 +43,11 @@ namespace AahRobots
 
         public bool spawnBlock(Vector2 spawnLoc, int blockID)
         {
-            if (blockID == 2)
-            {
-                return (this.spawnTurret(spawnLoc));
-            }
-            else
-            {
-                try
-                {
-                    int blocksPrinted = blocksInMap.Count;
-                    Block thisBlock = new Block(blockBatch, blockTextures.ElementAt<Texture2D>(blockID), spawnLoc, ++blocksPrinted);
-                    blocksInMap.Add(thisBlock);
-                    return true;
-                }
-                catch
-                {
-                    return false;
-                }
-            }
-        }
-
-        public bool spawnTurret(Vector2 spawnLoc)
-        {
             try
             {
-                int turretsPrinted = turretsInMap.Count;
-                Turret spawnedTurret = new Turret(blockBatch, spawnLoc, blockTextures.ElementAt<Texture2D>(1), blockTextures.ElementAt<Texture2D>(0), 1, ++turretsPrinted);
-                turretsInMap.Add(spawnedTurret);
+                int blocksPrinted = blocksInMap.Count;
+                Block thisBlock = new Block(blockBatch, blockTextures.ElementAt<Texture2D>(blockID), spawnLoc, ++blocksPrinted);
+                blocksInMap.Add(thisBlock);
                 return true;
             }
             catch
@@ -81,10 +58,6 @@ namespace AahRobots
 
         public bool loadTexturesIntoMemory()
         {
-            floorTile = thisGame.Content.Load<Texture2D>("Sprites//TURRETBASEFILLER");
-            wallTile = thisGame.Content.Load<Texture2D>("Sprites//TURRETTOPFILLER");
-            blockTextures.Add(floorTile);
-            blockTextures.Add(wallTile);
             return true;
         }
 
@@ -93,15 +66,6 @@ namespace AahRobots
             foreach (Block block in blocksInMap)
             {
                 block.Draw(blockBatch);
-            }
-        }
-
-
-        public void drawAllTurrets(SpriteBatch blockBatch)
-        {
-            foreach (Turret turret in turretsInMap)
-            {
-                turret.Draw(blockBatch);
             }
         }
     }

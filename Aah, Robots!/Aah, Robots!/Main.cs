@@ -1,3 +1,5 @@
+
+
 /// Aah, Robots! QUALITY ASSURANCE BUILD
 /// 
 /// Written by Cyborgs Anonymous for Windows Phone 7 (C) 2012
@@ -72,6 +74,8 @@ namespace AahRobots
 
         public Main()
         {
+
+
             graphics = new GraphicsDeviceManager(this);
             graphics.IsFullScreen = true;
             Content.RootDirectory = "Content";
@@ -88,9 +92,6 @@ namespace AahRobots
             spriteBatch = new SpriteBatch(GraphicsDevice);
             blockBatch = new SpriteBatch(GraphicsDevice);
 
-            mapManager = new MapManager(this);
-            Components.Add(mapManager);
-
             blockManager = new BlockManager(this, blockBatch);
             Components.Add(blockManager);
             digiFont = Content.Load<SpriteFont>("Fonts//digitalFont");
@@ -98,11 +99,13 @@ namespace AahRobots
 
 
             thePlayerSkin = Content.Load<Texture2D>("Sprites//PLAYERFILLER");
+            System.Diagnostics.Debug.WriteLine("Player loaded...");
             Vector2 testVec = new Vector2(100, 100);
             Vector2 testVec2 = new Vector2(135, 100);
             blockManager.spawnBlock(testVec, 1);
             blockManager.spawnBlock(testVec2, 2);
             thePlayer = new Player(thePlayerSkin, playerPosition, this);
+            mapManager.openMap(1);
 
             #region CrapCode
             //Scrap or temporary code starts here!
@@ -136,8 +139,7 @@ namespace AahRobots
             GraphicsDevice.Clear(Color.Black);
             spriteBatch.Begin();
             blockBatch.Begin();
-            blockManager.drawAllBlocks(blockBatch);           
-            
+            blockManager.drawAllBlocks(blockBatch);
             thePlayer.Draw(gameTime, spriteBatch);
             spriteBatch.DrawString(digiFont, "Robots to kill: " + robotsOnScreen.ToString(), new Vector2(20, 20), Color.White);
             spriteBatch.DrawString(digiFont, "Robots killed: " + robotKillCount.ToString(), new Vector2(20, 45), Color.White);

@@ -17,31 +17,31 @@ namespace AahRobots
     /// </summary>
     public class MapManager : Microsoft.Xna.Framework.GameComponent
     {
-        public MapManager(Game game)
+        Game thisGame;
+        BlockManager blockManager;
+
+        public MapManager(Game game, BlockManager blkManager)
             : base(game)
         {
-            Map mapOne = new Map();
+            this.thisGame = game;
+            this.blockManager = blkManager;
         }
 
-        /// <summary>
-        /// Allows the game component to perform any initialization it needs to before starting
-        /// to run.  This is where it can query for any required services and load content.
-        /// </summary>
+        public Map openMap(int mapID)
+        {
+            Map thisMap = new Map(mapID, 8, 8);
+            thisMap.openMap();
+            return thisMap;
+        }
+
         public override void Initialize()
         {
-            // TODO: Add your initialization code here
 
             base.Initialize();
         }
 
-        /// <summary>
-        /// Allows the game component to update itself.
-        /// </summary>
-        /// <param name="gameTime">Provides a snapshot of timing values.</param>
         public override void Update(GameTime gameTime)
         {
-            // TODO: Add your update code here
-
             base.Update(gameTime);
         }
     }

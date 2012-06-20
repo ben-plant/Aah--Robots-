@@ -53,7 +53,6 @@ C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Win
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\SMALLROBOTFILLER.xnb
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\THUMBSTICKFILLER.xnb
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\TOUCHHIGHLIGHT.xnb
-C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\BOXFILLER.xnb
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Controller\THUMBSTICKTOUCH.xnb
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Fonts\digitalFont.xnb
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Fonts\arialFont.xnb
@@ -70,6 +69,18 @@ C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Win
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\XapCacheFile.xml
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\TURRETBASEFILLER.xnb
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Sprites\TURRETTOPFILLER.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\1.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Floors\10.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Floors\11.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Floors\12.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\2.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\3.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\4.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\5.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\6.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\7.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\8.xnb
+C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Content\Bricks\Walls\9.xnb
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\Argh, Robots!.xap
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\obj\Windows Phone\Debug\XapCacheFile.xml
 C:\Users\Ben\Desktop\Aah, Robots!\Aah, Robots!\Aah, Robots!\Aah, Robots!\bin\Windows Phone\Debug\AppManifest.xaml
